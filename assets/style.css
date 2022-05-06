@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 1320px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.col1 {
+    width: 50%;
+    height: 50%;
+}
+img {
+
+    width: 400px;
+
+}
+img:hover {
+    width: 600px;
+    transition-delay: 2s;
+}
